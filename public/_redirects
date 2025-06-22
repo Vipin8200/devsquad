@@ -1,0 +1,12 @@
+# Netlify redirects file for React Router
+# More specific rules (optional - use simple version above for most cases)
+
+# Handle specific routes
+/about       /index.html   200
+/services    /index.html   200
+/portfolio   /index.html   200
+/contact     /index.html   200
+/404         /index.html   200
+
+# Catch all other routes
+/*           /index.html   200
