@@ -310,7 +310,7 @@ const Home = () => {
                   We offer modern solutions for growing your business
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-                  We are team of talented designers making websites with Bootstrap
+                  We deliver innovative solutions that drive business growth and success
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                   <a href="#about" className="inline-flex items-center justify-center px-6 py-3 text-white font-semibold rounded-lg hover:opacity-90 transition-all duration-300 transform hover:scale-105" style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'}}>

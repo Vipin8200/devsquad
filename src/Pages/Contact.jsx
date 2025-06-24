@@ -323,10 +323,10 @@ const Contact = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Call Us</h3>
               <p className="text-gray-600 mb-4">Speak directly with our team</p>
               <p className="text-sm text-gray-500">
-                <a href="tel:+919876543210" className="hover:text-purple-600 transition-colors">
+                <a href="tel:+918200668922" className="hover:text-purple-600 transition-colors">
                   +91 82006 68922
                 </a><br />
-                <a href="tel:+919123456789" className="hover:text-purple-600 transition-colors">
+                <a href="tel:+918160385225" className="hover:text-purple-600 transition-colors">
                   +91 81603 85225
                 </a>
               </p>
