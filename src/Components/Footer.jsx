@@ -121,7 +121,10 @@ const Footer = () => {
       </div>
 
       <div className="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong className="px-1 sitename">DevSquad</strong> <span>All Rights Reserved</span></p>
+        <p>
+          © <span>Copyright</span> <strong className="px-1 sitename">2025 DevSquad – IT Solutions</strong>
+          <span>All Rights Reserved</span> | Registered MSME (Udyam No: <strong>UDYAM-GJ-03-0061997</strong>)
+        </p>
         {/* <div className="credits">
           Designed by <a href="https://bootstrapmade.com/" target="_blank" rel="noopener noreferrer">BootstrapMade</a> Distributed by <a href="https://themewagon.com" target="_blank" rel="noopener noreferrer">ThemeWagon</a>
         </div> */}
