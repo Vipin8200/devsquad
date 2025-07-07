@@ -113,7 +113,7 @@ const Footer = () => {
             <div className="social-links d-flex">
               {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter-x"></i></a> */}
               {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook"></i></a> */}
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
+              <a href="https://www.instagram.com/devsquad_agency/" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
               <a href="https://www.linkedin.com/company/devsquad-it-solutions/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
             </div>
           </div>
