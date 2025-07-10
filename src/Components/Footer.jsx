@@ -108,15 +108,16 @@ const Footer = () => {
           </div>
 
           <div className="col-lg-4 col-md-12">
-            <h4>Follow Us</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-            <div className="social-links d-flex">
-              {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter-x"></i></a> */}
-              {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook"></i></a> */}
-              <a href="https://www.instagram.com/devsquad_agency/" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/company/devsquad-it-solutions/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
-            </div>
-          </div>
+  <h4>Connect With Us</h4>
+  <p>Join our journey — where innovation meets creativity. Let’s build something extraordinary together.</p>
+  <div className="social-links d-flex">
+    {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter-x"></i></a> */}
+    {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook"></i></a> */}
+    <a href="https://www.instagram.com/devsquad_agency/" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/devsquad-it-solutions/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
+  </div>
+</div>
+
         </div>
       </div>
 
