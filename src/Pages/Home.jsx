@@ -17,7 +17,7 @@ import testimonial1 from '../assets/img/girl.jpg'
 import testimonial2 from '../assets/img/shop.jpg'
 import testimonial3 from '../assets/img/boy.jpg'
 import '../assets/css/Main.css'
-import { ArrowRight, Code, Palette, Globe, ShoppingBag, Terminal, Smartphone, Users, PenTool  } from 'lucide-react';
+import { ArrowRight, Code, Palette, Globe, ShoppingBag, Terminal, Smartphone, Users, PenTool, BarChart2  } from 'lucide-react';
 
 
 
@@ -243,50 +243,65 @@ const Home = () => {
   }, [isAutoPlaying, currentSlide]);
 
 
-  const services = [
-    {
-      icon: <Palette className="h-8 w-8" />,
-      title: "UI/UX Design",
-      description: "Creating intuitive and visually stunning user experiences that engage and convert visitors into customers.",
-      color: "from-blue-500 to-cyan-400"
-    },
-    {
-      icon: <PenTool className="h-8 w-8" />,
-      title: "Graphics Designin",
-      description: "Crafting visually compelling designs that communicate your brand's message clearly and creatively, leaving a lasting impression on your audience.",
-      color: "from-blue-500 to-cyan-400"
-    },
-    {
-      icon: <Code className="w-8 h-8" />,
-      title: "Web Development",
-      description: "Building responsive, fast-loading websites with modern technologies and best practices for optimal performance.",
-      color: "from-purple-500 to-pink-400"
-    },
-    {
-      icon: <Globe className="w-8 h-8" />,
-      title: "E-commerce Solutions",
-      description: "Comprehensive online store development with secure payment systems and inventory management.",
-      color: "from-green-500 to-teal-400"
-    },
-    {
-      icon: <Smartphone className="w-8 h-8" />,
-      title: "Mobile Development",
-      description: "Native and cross-platform mobile applications that deliver exceptional user experiences across all devices.",
-      color: "from-orange-500 to-red-400"
-    },
-    {
-      icon: <Terminal className="w-8 h-8" />,
-      title: "Custom Software",
-      description: "Tailored software solutions designed to streamline your business processes and increase efficiency.",
-      color: "from-indigo-500 to-purple-400"
-    },
-    {
-      icon: <Users className="w-8 h-8" />,
-      title: "IT Consulting",
-      description: "Strategic technology consulting to help your business leverage the latest innovations and stay competitive.",
-      color: "from-pink-500 to-rose-400"
-    }
-  ];
+ const services = [
+  {
+    icon: <Palette className="h-8 w-8" />,
+    title: "UI/UX Design",
+    description:
+      "Creating intuitive and visually stunning user experiences that engage and convert visitors into customers.",
+    color: "from-blue-500 to-cyan-400",
+  },
+  {
+    icon: <PenTool className="h-8 w-8" />,
+    title: "Graphics Designing",
+    description:
+      "Crafting visually compelling designs that communicate your brand's message clearly and creatively, leaving a lasting impression on your audience.",
+    color: "from-blue-500 to-cyan-400",
+  },
+  {
+    icon: <Code className="w-8 h-8" />,
+    title: "Web Development",
+    description:
+      "Building responsive, fast-loading websites with modern technologies and best practices for optimal performance.",
+    color: "from-purple-500 to-pink-400",
+  },
+  {
+    icon: <Globe className="w-8 h-8" />,
+    title: "E-commerce Solutions",
+    description:
+      "Comprehensive online store development with secure payment systems and inventory management.",
+    color: "from-green-500 to-teal-400",
+  },
+  {
+    icon: <Smartphone className="w-8 h-8" />,
+    title: "Mobile Development",
+    description:
+      "Native and cross-platform mobile applications that deliver exceptional user experiences across all devices.",
+    color: "from-orange-500 to-red-400",
+  },
+  {
+    icon: <Terminal className="w-8 h-8" />,
+    title: "Custom Software",
+    description:
+      "Tailored software solutions designed to streamline your business processes and increase efficiency.",
+    color: "from-indigo-500 to-purple-400",
+  },
+  {
+    icon: <Users className="w-8 h-8" />,
+    title: "IT Consulting",
+    description:
+      "Strategic technology consulting to help your business leverage the latest innovations and stay competitive.",
+    color: "from-pink-500 to-rose-400",
+  },
+  {
+    icon: <BarChart2 className="w-8 h-8" />,
+    title: "Data Analytics",
+    description:
+      "Transforming raw data into actionable insights to drive smarter business decisions and optimize performance.",
+    color: "from-yellow-500 to-amber-400",
+  },
+];
+
 
   return (
     <div className="mt-10">

@@ -12,7 +12,8 @@ import {
   CheckCircle,
   Clock,
   Star,
-  Zap
+  Zap,
+  BarChart2
 } from "lucide-react";
 
 const Services = () => {
@@ -103,7 +104,37 @@ const Services = () => {
       deliverables: ["Strategy Document", "Implementation Roadmap", "Risk Assessment", "Recommendations"],
       timeline: "2-6 weeks",
       startingPrice: "$1,500"
+    },
+    {
+      id: 8,
+      title: "Data Analytics",
+      icon: <BarChart2 className="h-8 w-8" />,
+      description: "Transform raw data into actionable insights to make data-driven business decisions.",
+      shortDesc: "Advanced analytics solutions that uncover patterns, trends, and opportunities to optimize performance.",
+      features: [
+        "Data Collection & Cleaning",
+        "Data Visualization",
+        "Predictive Analytics",
+        "Business Intelligence Reports"
+      ],
+      technologies: [
+        "Python",
+        "R",
+        "Power BI",
+        "Tableau",
+        "SQL",
+        "Google Data Studio"
+      ],
+      deliverables: [
+        "Dashboards",
+        "Data Models",
+        "Custom Reports",
+        "Insight Presentations"
+      ],
+      timeline: "3-6 weeks",
+      startingPrice: "$2,000"
     }
+
   ];
 
   useEffect(() => {
